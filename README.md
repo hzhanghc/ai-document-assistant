@@ -381,6 +381,32 @@ so that the result can be traced back to the indexed material.
 
 ---
 
+## Screenshots
+
+### Main Interface
+
+The Streamlit interface provides PDF document management, knowledge-base
+information, and a question-answering interface in a single local application.
+
+![AI Document Assistant main interface](screenshots/01_main_interface.png)
+
+### Grounded Question Answering
+
+Answers are generated from retrieved document context and include the source
+document and page number used during retrieval.
+
+![Grounded answer with sources](screenshots/02_grounded_answer.png)
+
+### Multi-Document Retrieval
+
+The retrieval pipeline can combine information from multiple indexed documents.
+In this example, the assistant retrieves information from both benchmark
+documents to compare the Aurora and Atlas processing rates.
+
+![Multi-document RAG answer](screenshots/03_multi_document_answer.png)
+
+---
+
 ## Evaluation
 
 The project includes a reproducible public benchmark designed specifically
